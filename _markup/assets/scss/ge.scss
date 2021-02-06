@@ -25,6 +25,7 @@
     font-display: swap;
 }
 
+
 @font-face {
     font-family: 'Helvetica-Neue-medium';
     src: url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium/HelveticaNeueLTGEO-65Medium.eot');
@@ -34,6 +35,32 @@
         url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium/HelveticaNeueLTGEO-65Medium.ttf') format('truetype'),
         url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium/HelveticaNeueLTGEO-65Medium.svg#HelveticaNeueLTGEO-65Medium') format('svg');
     font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica-medium-caps';
+    src: url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium-caps/HelveticaNeueLTGEOCaps-65Med.eot');
+    src: url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium-caps/HelveticaNeueLTGEOCaps-65Med.eot?#iefix') format('embedded-opentype'),
+        url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium-caps/HelveticaNeueLTGEOCaps-65Med.woff2') format('woff2'),
+        url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium-caps/HelveticaNeueLTGEOCaps-65Med.woff') format('woff'),
+        url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium-caps/HelveticaNeueLTGEOCaps-65Med.ttf') format('truetype'),
+        url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium-caps/HelveticaNeueLTGEOCaps-65Med.svg#HelveticaNeueLTGEOCaps-65Med') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica-bold-caps';
+    src: url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-bold-caps/HelveticaNeueLTGEOCaps-75Bold.eot');
+    src: url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-bold-caps/HelveticaNeueLTGEOCaps-75Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-bold-caps/HelveticaNeueLTGEOCaps-75Bold.woff2') format('woff2'),
+        url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-bold-caps/HelveticaNeueLTGEOCaps-75Bold.woff') format('woff'),
+        url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-bold-caps/HelveticaNeueLTGEOCaps-75Bold.ttf') format('truetype'),
+        url('https://zipline.alttool.com/_markup/assets/fonts/helvatica-bold-caps/HelveticaNeueLTGEOCaps-75Bold.svg#HelveticaNeueLTGEOCaps-75Bold') format('svg');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -49,22 +76,27 @@ $smallMain: 16px;
 
 .mainContainer .navigation ul li a{
     font-size: $smallMain;
-    font-family: 'Helvetica-Neue-medium';
+    font-family: 'Helvetica-medium-caps';
+}
+
+.mainContainer .languages ul li a{
+    font-size: $smallMain;
+    font-family: 'Helvetica-medium-caps';
 }
 
 main .cover-image .cover-text h1{
     font-size: $large;
-    font-family: 'Helvetica-Neue-medium';
+    font-family: 'Helvetica-bold-caps';
 }
 
 main .cover-image .cover-text h2{
     font-size: $mediumLarge;
-    font-family: 'Helvetica-Neue-medium';
+    font-family: 'Helvetica-medium-caps';
 }
 
 main .cover-image .cover-text button{
     font-size: $mediumLarge;
-    font-family: 'Helvetica-Neue-medium';
+    font-family: 'Helvetica-medium-caps';
 }
 
 main .about-us .mainContainer .social-networks ul li .whatsappHover{
@@ -73,6 +105,7 @@ main .about-us .mainContainer .social-networks ul li .whatsappHover{
 }
 
 main .about-us .mainContainer .about-text h3{
+    font-family: 'Helvetica-medium-caps';
     font-size: $mediumLarge;
     line-height: 40px;
 }
@@ -80,6 +113,7 @@ main .about-us .mainContainer .about-text h3{
 main .about-us .mainContainer .about-text p{
     font-size: $smallMain;
     line-height: 24px;
+    font-family: 'Helvetica-Neue-medium';
 }
 
 header .header-button{
@@ -89,7 +123,7 @@ header .header-button{
 
 main .offers .mainContainer h3{
     font-size: $mediumLarge;
-    font-family: 'Helvetica-Neue-medium';
+    font-family: 'Helvetica-bold-caps';
 }
 
 main .offers .mainContainer p{
@@ -99,7 +133,7 @@ main .offers .mainContainer p{
 
 main .offers .mainContainer .row .offer-item .box .green-footer h4{
     font-size: $smallMain;
-    font-family: 'Helvetica-Neue-medium';       
+    font-family: 'Helvetica-bold-caps';     
 }
 
 main .offers .mainContainer .row .offer-item .box .green-footer p{
