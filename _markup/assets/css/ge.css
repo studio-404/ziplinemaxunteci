@@ -1,0 +1,134 @@
+/* Font family */
+@font-face {
+  font-family: "Helvetica-Neue-heavy";
+  src: url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-heavy/HelveticaNeueLTGEO-85Heavy.eot");
+  src: url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-heavy/HelveticaNeueLTGEO-85Heavy.eot?#iefix") format("embedded-opentype"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-heavy/HelveticaNeueLTGEO-85Heavy.woff2") format("woff2"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-heavy/HelveticaNeueLTGEO-85Heavy.woff") format("woff"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-heavy/HelveticaNeueLTGEO-85Heavy.ttf") format("truetype"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-heavy/HelveticaNeueLTGEO-85Heavy.svg#HelveticaNeueLTGEO-85Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica-Neue-black";
+  src: url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-black/HelveticaNeueLTGEO-95Black.eot");
+  src: url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-black/HelveticaNeueLTGEO-95Black.eot?#iefix") format("embedded-opentype"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-black/HelveticaNeueLTGEO-95Black.woff2") format("woff2"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-black/HelveticaNeueLTGEO-95Black.woff") format("woff"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-black/HelveticaNeueLTGEO-95Black.ttf") format("truetype"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-black/HelveticaNeueLTGEO-95Black.svg#HelveticaNeueLTGEO-95Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica-Neue-medium";
+  src: url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium/HelveticaNeueLTGEO-65Medium.eot");
+  src: url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium/HelveticaNeueLTGEO-65Medium.eot?#iefix") format("embedded-opentype"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium/HelveticaNeueLTGEO-65Medium.woff2") format("woff2"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium/HelveticaNeueLTGEO-65Medium.woff") format("woff"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium/HelveticaNeueLTGEO-65Medium.ttf") format("truetype"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-medium/HelveticaNeueLTGEO-65Medium.svg#HelveticaNeueLTGEO-65Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/* Font sizes */
+.mainContainer .navigation ul li a {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .cover-image .cover-text h1 {
+  font-size: 81px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .cover-image .cover-text h2 {
+  font-size: 38px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .cover-image .cover-text button {
+  font-size: 38px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .about-us .mainContainer .social-networks ul li .whatsappHover {
+  font-size: 25px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .about-us .mainContainer .about-text h3 {
+  font-size: 38px;
+  line-height: 40px;
+}
+
+main .about-us .mainContainer .about-text p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+header .header-button {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .offers .mainContainer h3 {
+  font-size: 38px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .offers .mainContainer p {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .offers .mainContainer .row .offer-item .box .green-footer h4 {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .offers .mainContainer .row .offer-item .box .green-footer p {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .offers .mainContainer .row .offer-item a {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .prices-box .mainContainer h3 {
+  font-family: "Helvetica-Neue-medium";
+  font-size: 38px;
+}
+
+main .prices-box .mainContainer .price-border .left .footer p {
+  font-family: "Helvetica-Neue-medium";
+  font-size: 38px;
+}
+
+main .prices-box .mainContainer .price-border .left .footer button {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .prices-box .mainContainer .price-border .right h4 {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .prices-box .mainContainer .price-border .right .content strong {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .prices-box .mainContainer .price-border .right .content p {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+  line-height: 24px;
+}
+
+main .prices-box .mainContainer .price-border .right .content ul li {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+  line-height: 25px;
+}
+
+main .additional-services h3 {
+  font-family: "Helvetica-Neue-medium";
+  font-size: 38px;
+}
+
+/*# sourceMappingURL=ge.css.map */
