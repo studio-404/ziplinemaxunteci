@@ -39,6 +39,14 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Helvetica-roman-caps";
+  src: url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-roman-caps/HelveticaNeueLTGEOCaps-55Rmn.eot");
+  src: url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-roman-caps/HelveticaNeueLTGEOCaps-55Rmn.eot?#iefix") format("embedded-opentype"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-roman-caps/HelveticaNeueLTGEOCaps-55Rmn.woff2") format("woff2"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-roman-caps/HelveticaNeueLTGEOCaps-55Rmn.woff") format("woff"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-roman-caps/HelveticaNeueLTGEOCaps-55Rmn.ttf") format("truetype"), url("https://zipline.alttool.com/_markup/assets/fonts/helvatica-roman-caps/HelveticaNeueLTGEOCaps-55Rmn.svg#HelveticaNeueLTGEOCaps-55Rmn") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /* Font sizes */
 .mainContainer .navigation ul li a {
   font-size: 16px;
@@ -99,21 +107,22 @@ main .offers .mainContainer p {
 
 main .offers .mainContainer .row .offer-item .box .green-footer h4 {
   font-size: 16px;
-  font-family: "Helvetica-Neue-medium";
+  font-family: "Helvetica-bold-caps";
 }
 
 main .offers .mainContainer .row .offer-item .box .green-footer p {
   font-size: 16px;
   font-family: "Helvetica-Neue-medium";
+  font-weight: Roman;
 }
 
 main .offers .mainContainer .row .offer-item a {
   font-size: 16px;
-  font-family: "Helvetica-Neue-medium";
+  font-family: "Helvetica-bold-caps";
 }
 
 main .prices-box .mainContainer h3 {
-  font-family: "Helvetica-Neue-medium";
+  font-family: "Helvetica-bold-caps";
   font-size: 38px;
 }
 
@@ -124,17 +133,17 @@ main .prices-box .mainContainer .price-border .left .footer p {
 
 main .prices-box .mainContainer .price-border .left .footer button {
   font-size: 16px;
-  font-family: "Helvetica-Neue-medium";
+  font-family: "Helvetica-medium-caps";
 }
 
 main .prices-box .mainContainer .price-border .right h4 {
   font-size: 16px;
-  font-family: "Helvetica-Neue-medium";
+  font-family: "Helvetica-bold-caps";
 }
 
 main .prices-box .mainContainer .price-border .right .content strong {
   font-size: 16px;
-  font-family: "Helvetica-Neue-medium";
+  font-family: "Helvetica-bold-caps";
 }
 
 main .prices-box .mainContainer .price-border .right .content p {
@@ -150,8 +159,35 @@ main .prices-box .mainContainer .price-border .right .content ul li {
 }
 
 main .additional-services h3 {
-  font-family: "Helvetica-Neue-medium";
+  font-family: "Helvetica-bold-caps";
   font-size: 38px;
+}
+
+main .additional-services .service-item .details p {
+  font-size: 25px;
+  font-family: "Helvetica-Neue-medium";
+}
+
+main .additional-services .service-item .details a {
+  font-family: "Helvetica-bold-caps";
+  font-size: 16px;
+  line-height: 40px;
+}
+
+main .about-maxunteci h3 {
+  font-family: "Helvetica-bold-caps";
+  font-size: 38px;
+}
+
+main .about-maxunteci .mainContainer .content-box .blur-box p {
+  font-size: 16px;
+  font-family: "Helvetica-Neue-medium";
+  line-height: 25px;
+}
+
+main .about-maxunteci .mainContainer .content-box .blur-box a {
+  font-family: "Helvetica-bold-caps";
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=ge.css.map */
