@@ -1,3 +1,4 @@
+echo $1;
 if [$1=='st']
 then
 	git status;
