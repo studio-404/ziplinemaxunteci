@@ -1,5 +1,4 @@
-echo $1;
-if [$1=='st']
+if [ "$1"=="st" ]
 then
 	git status;
 else
