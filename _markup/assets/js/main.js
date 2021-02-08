@@ -8,14 +8,16 @@ $(document).ready(function(){
 
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
-    console.log(scroll);
-    if (scroll >= 250) {
-        $("header").addClass("fixed");
-        setTimeout(function(){
-        	$(".fixed").css({top:'0px'});	
-        }, 500);        
-    }else{
-    	$("header").removeClass("fixed");
-    	$(".fixed").css({top:'-70px'});
+    
+    if(!$("header").hasClass("small-header")){
+        if (scroll >= 250) {
+            $("header").addClass("fixed");
+            setTimeout(function(){
+            	$(".fixed").css({top:'0px'});	
+            }, 500);        
+        }else{
+        	$("header").removeClass("fixed");
+        	$(".fixed").css({top:'-70px'});
+        }
     }
 });

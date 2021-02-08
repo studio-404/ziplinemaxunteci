@@ -45,6 +45,7 @@ header{
 	top: 0;
 	left: 0;
 	transition-property: height, line-height;
+	z-index:99;
 }
 
 header .header-button{
@@ -171,6 +172,35 @@ header .header-button:hover{
 
 .mainContainer .languages ul .active a{
 	color: $orange;
+}
+
+.small-header{
+	height: 70px;
+	line-height: 70px;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	transition-property: top;
+	transition-duration: 600ms;
+	transition-timing-function: ease-in-out;
+	z-index: 100;
+}
+.small-header .logo{
+	height: 70px;
+	line-height: 70px;
+}
+
+.small-header .mainContainer .navigation ul li a{
+	line-height: 70px;
+}
+
+.small-header .mainContainer .languages{
+	height: 70px;
+	line-height: 70px;
+}
+
+.small-header .header-button{
+	display: block;
 }
 
 .fixed{
@@ -940,6 +970,15 @@ footer{
 	background-color: $greenBlack;
 	margin-top: -170px;
 	padding-top: 300px;
+}
+
+.inner-page .header-space{
+	height: 70px;
+}
+
+.inner-page footer{
+	margin-top: 0px;
+	padding-top: 60px;
 }
 
 footer h3{
