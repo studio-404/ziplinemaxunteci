@@ -252,3 +252,47 @@ footer .copyright .left p{
    font-family: 'Helvetica-medium-caps';
    font-size: $mediumSmall;
 }
+
+/* about */
+main .about-zipline p{
+    font-family: 'Helvetica-medium-caps';
+    font-size: $medium;
+    line-height: 35px;
+}
+
+main .about-offer .mainContainer h3{
+    font-family: 'Helvetica-medium-caps';
+    font-size: $medium;
+    line-height: 35px;
+}
+
+main .about-security .mainContainer h3{
+    font-family: 'Helvetica-medium-caps';
+    font-size: $mediumLarge;
+}
+
+main .about-security .mainContainer p{
+    font-family: 'Helvetica-Neue-medium';
+    font-size: $medium;
+}
+
+main .notes .mainContainer h3{
+    font-family: 'Helvetica-medium-caps';
+    font-size: $mediumLarge;
+}
+
+main .notes .mainContainer h4{
+    font-family: 'Helvetica-medium-caps';
+    font-size: $medium;
+}
+
+main .notes .mainContainer p{
+    line-height: 35px;
+    font-size: $medium;
+    font-family: 'Helvetica-Neue-medium';
+}
+
+main .top-msg h1{
+    font-family: 'Helvetica-roman-caps';
+    font-size: $smallMain;
+}

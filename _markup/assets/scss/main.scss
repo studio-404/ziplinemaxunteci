@@ -10,6 +10,15 @@ $pureWhite: #FFFFFF;
 $newWhite: #F7F2E5;
 $grey: #E0E0E0;
 
+::selection {
+  background: $orange;
+  color: $pureWhite;
+}
+::-moz-selection {
+  background: $orange;
+  color: $pureWhite;
+}
+
 /* Vars */
 $mainContainer: 1280px;
 
@@ -183,7 +192,7 @@ header .header-button:hover{
 	transition-property: top;
 	transition-duration: 600ms;
 	transition-timing-function: ease-in-out;
-	z-index: 100;
+	z-index: 1000;
 }
 .small-header .logo{
 	height: 70px;
@@ -980,6 +989,9 @@ footer{
 	margin-top: 0px;
 	padding-top: 60px;
 }
+
+@import 'about';
+@import 'service';
 
 footer h3{
 	margin: 0;
