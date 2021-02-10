@@ -1,0 +1,35 @@
+.left-owl-carousel{
+	margin: 0;
+	padding: 0;
+	width: 64%;
+	height: calc(100vh - 70px);
+	float: left;
+	position: relative;
+}
+
+.left-owl-carousel div{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.right-owl-carousel{
+	margin: 0;
+	padding: 0;
+	width: 36%;
+	height: calc(100vh - 70px);
+	float: left;
+	position: relative;
+}
+
+.right-owl-carousel div{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}

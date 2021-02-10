@@ -12,7 +12,7 @@ main .top-msg h1{
 }
 
 main .service-list{
-	margin: 0;
+	margin: 0 0 400px 0;
 	padding: 0;
 	width: 100%;
 	position: relative;
@@ -24,9 +24,143 @@ main .service-list::before{
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+main .service-list .mainContainer .the-service{
+	margin: 0 auto;
+	padding: 70px 0 0 0;
+	width: 1000px;
+}
+
+main .service-list .mainContainer .the-service h2{
+    margin: 0;
+    padding: 0 0 50px 0;
+    width: 100%;
+    text-align: center;
+} 
+
+main .service-list .mainContainer .the-service p{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+} 
+
+main .transport-service::before{
 	background-image: url('../img/serv1.bg.svg');
+	background-size: cover;
+}
+
+main .transport-service .mainContainer .the-service h2{
+   color: $orange;
+}
+
+main .transport-service .mainContainer .the-service p{
+	color: $blackDark;
+}
+
+main .transport-service .mainContainer .the-service .serv-image{
+	margin: 55px 0 0 0;
+	padding: 0;
+	width: 100%;
+	height: 580px;
+	background-size: cover;
+	background-position: center center;
 }
 
 .height700{
 	height:700px;
+}
+
+main .selfie-service{
+	background-color: $orange;
+}
+
+main .selfie-service::before{
+	background-image: url('../img/serv2.bg.svg');
+	background-size: cover;
+}
+
+main .selfie-service .mainContainer .the-service h2{
+   color: $white;
+}
+
+main .selfie-service .mainContainer .the-service p{
+	color: $blackDark;
+}
+
+main .selfie-service .mainContainer .the-service .serv-image{
+	margin: 55px 0 0 0;
+	padding: 0;
+	width: 100%;
+	height: 580px;
+	background-size: cover;
+	background-position: center center;
+} 
+
+.height742{
+	height:742px;
+}
+
+main .rafting-service{
+	background-color: $greenBlack;
+}
+
+main .rafting-service::before{
+	background-image: url('../img/serv3.bg.svg');
+	background-size: cover;
+}
+
+main .rafting-service .mainContainer .the-service h2{
+   color: $orange;
+} 
+
+main .rafting-service .mainContainer .the-service p{
+	color: $white;
+}
+
+main .rafting-service .mainContainer .the-service .serv-image{
+	margin: 55px 0 0 0;
+	padding: 0;
+	width: 100%;
+	height: 580px;
+	background-size: cover;
+	background-position: center center;
+} 
+
+.height944{
+	height:944px;
+}
+
+main .wine-service{
+	background-color: $pureWhite;
+}
+
+main .wine-service::before{
+	background-image: url('../img/serv4.bg.png');
+	background-size: cover;
+}
+
+main .wine-service .mainContainer .the-service h2{
+   color: $greenBlack;
+} 
+
+main .wine-service .mainContainer .the-service p{
+	color: $blackDark;
+}
+
+main .wine-service .mainContainer .the-service .serv-image{
+	margin: 55px 0 0 0;
+	padding: 0;
+	width: 100%;
+	height: 580px;
+	background-size: cover;
+	background-position: center center;
+} 
+
+.height778{
+	height:778px;
 }

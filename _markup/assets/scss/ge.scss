@@ -296,3 +296,14 @@ main .top-msg h1{
     font-family: 'Helvetica-roman-caps';
     font-size: $smallMain;
 }
+
+main .service-list .mainContainer .the-service h2{
+    font-family: 'Helvetica-medium-caps';
+    font-size: $mediumLarge;
+} 
+
+main .service-list .mainContainer .the-service p{
+    line-height: 35px;
+    font-size: $medium;
+    font-family: 'Helvetica-Neue-medium';
+} 
