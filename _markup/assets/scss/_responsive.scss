@@ -47,4 +47,294 @@
 	main .about-us .mainContainer .social-networks ul li .facebook{
 		background-size: 22px 27px;
 	}
+
+	main .about-us{
+		min-height: 440px;
+	}
+
+	main .about-us .mainContainer .social-networks ul li .whatsappHover{
+		padding: 0 0 0 40px;
+	}
+
+	main .about-us .mainContainer .social-networks ul li .whatsappHover::before{
+		width: 22px;
+		height: 22px;
+		left: 25px;
+	}
+
+	main .about-us .mainContainer .about-text{
+		margin-top: 343px;
+	}
+
+	main .about-us .mainContainer .about-text h3{
+		margin-bottom: 22px;
+	}
+
+	main .offers .mainContainer h3{
+		padding-top: 57px;
+	}
+
+	main .offers .mainContainer p{
+		padding-top: 8px;
+	}
+
+	main .offers .mainContainer .row .offer-item .box{
+		height: 303px;
+	}
+
+	main .offers .mainContainer .row .offer-item .box .green-footer{
+		line-height: 52px;
+	}
+
+	main .offers .mainContainer .row .offer-item .box .green-footer p{
+		padding: 0 39px 39px 39px;
+	}
+
+	main .offers .mainContainer .row .offer-item a{
+		width: 264px;
+		height: 57px;
+		line-height: 57px;
+	}
+
+	main .orange-box{
+		height: 484px;
+	}
+
+	main .prices-box .mainContainer .price-border{
+		margin-top: 44px;
+	}
+
+	main .prices-box .mainContainer .price-border .left .footer p{
+		line-height: 55px;
+	}
+
+	main .prices-box .mainContainer .price-border .left .footer button{
+		line-height: 55px;	
+	}
+
+	main .prices-box .mainContainer .price-border .right .content .payment-icons{
+		right: 50px;
+	}
+
+	main .prices-box .mainContainer .price-border .right .content .payment-icons div{
+		margin-right: 20px;
+	}
+
+	main .additional-services h3{
+		margin-top: 66px;
+		padding-top: 202px;
+		margin-bottom: 52px;
+	}
+
+	main .additional-services .service-item{
+		height: 748px;
+	}
+
+	main .additional-services .service-item:hover .details{
+		height: 343px;
+	}
+
+	main .additional-services .service-item:hover .details p{
+		margin-top: 105px;
+	}
+
+	main .additional-services .service-item .details a{
+		margin-top: 105px;	
+	}
+
+	main .about-maxunteci h3{
+		margin-top: 114px;
+	}
+
+	main .about-maxunteci .mainContainer .content-box{
+		margin-top: 149px;
+		height: 655px;
+	}
+
+	main .about-maxunteci .mainContainer .content-box .blur-box{
+		margin: -92px auto;
+		padding: 92px 52px 57px 79px;
+		width: 897px;
+		float: none;
+	}
+
+	main .about-maxunteci .mainContainer .content-box .blur-box a{
+		margin-top: 44px;
+	}
+
+	footer {
+	    margin-top: -149px;
+	    padding-top: 264px;
+	}
+
+	footer h3{
+		padding-left: 136px;
+    	padding-bottom: 52px;
+	}
+
+	footer .footer-facebook{
+		width: 422px;
+    	height: 319px;
+	}
+
+	footer .footer-facebook p{
+		line-height: 319px;
+	}
+
+	footer .right ul li{
+		line-height: 105px;
+	}
+
+	footer .right ul li a{
+		line-height: 105px;
+		padding: 0 0 0 88px;
+	}
+
+	footer .right ul li a::before{
+		width: 26px;
+		height: 26px;
+		left: 33px;
+		top: 39px;
+	}
+
+	footer .right .footer-zipman-box{
+		width: calc(100% - 480px);
+		height: 319px;
+	}
+
+	footer .left .google-map{
+		height: 365px;
+		line-height: 365px;	
+	}
+
+	footer .right .address{
+		height: 365px;
+		line-height: 365px;	
+	}
+
+	footer .right .address span::before{
+		left: 35px;
+    	top: 150px;
+	}
+
+	footer .copyright{
+		height: 57px;
+    	line-height: 57px;
+	}
+
+	footer .copyright .right{
+		height: 57px;
+	}
+
+	footer .copyright .left p{
+		line-height: 57px;	
+	}
+
+	footer .copyright .right .shindi{
+		width: 66px;
+		height: 22px;
+		margin-top: 17px;
+	}
+
+	/* about */
+	.small-header .logo{
+		height: 70px;
+		line-height: 70px;
+	}
+
+	main .about-zipline{
+		height: 567px;
+	}
+
+	main .about-zipline p{
+		padding-top: 123px;
+	}
+
+	main .about-security{
+		padding-top: 140px;
+	}
+
+	main .about-security .mainContainer p{
+		padding-top: 39px;
+	}
+
+	main .middle-cover{
+		margin: 74px 0 0 0;
+		height: 400px;
+	}
+
+	main .notes .mainContainer h3{
+		padding: 22px 40px 4px 40px;
+	}
+
+	main .notes .mainContainer h4{
+		padding: 35px 40px 0 40px;
+	}
+
+	main .notes .mainContainer br{
+		height: 13px;
+	}
+
+	/* maxunteci */
+	.maxunteci-content .over-slider .text-box{
+		padding: 75px 50px 101px 50px;
+    	width: 712px;
+	}
+
+	/* service */
+	main .top-msg{
+		padding: 79px 0 61px 0;
+	}
+
+	main .service-list .mainContainer .the-service{
+		padding-top: 61px;
+	}
+
+	main .service-list .mainContainer .the-service h2{
+		padding-bottom: 44px;
+	}
+
+	main .service-list{
+		margin-bottom: 352px;
+	}
+
+	main .transport-service .mainContainer .the-service .serv-image{
+		margin: 48px 0 0 0;
+		height: 510px;
+	}
+
+	main .selfie-service .mainContainer .the-service .serv-image{
+		margin: 48px 0 0 0;
+		height: 510px;
+	}
+
+	.height742{
+		height: 652px;
+	}
+
+	main .rafting-service .mainContainer .the-service .serv-image{
+		margin: 48px 0 0 0;
+		height: 510px;
+	}
+
+	.height944{
+		height: 830px;
+	}
+
+	main .wine-service .mainContainer .the-service .serv-image{
+		margin: 48px 0 0 0;
+		height: 510px;
+	}
+
+	.height778{
+		height: 684px;
+	}
+
+}
+
+@media screen and (max-width: 812px){
+	.mainContainer{
+		width: 90% !important;
+		margin: 0 5%;
+	}
 }

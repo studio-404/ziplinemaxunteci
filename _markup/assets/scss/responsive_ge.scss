@@ -8,6 +8,8 @@ $smallMain: 16px;*/
 $largeNotebook: 71px;
 $smallMainNoteBook: 14px;
 $mediumLargeNoteBook: 33px;
+$mediumNoteBook: 22px;
+$mediumSmallnoteBook: 17px;
 
 /* notebook */
 @media screen and (min-width:1200px) and (max-width: 1600px){
@@ -29,5 +31,173 @@ $mediumLargeNoteBook: 33px;
 
 	main .cover-image .cover-text button{
 		font-size: $mediumLargeNoteBook !important;
+	}
+
+	main .about-us .mainContainer .social-networks ul li .whatsappHover{
+		font-size: $mediumNoteBook;
+	}
+
+	main .about-us .mainContainer .about-text h3{
+		font-size: $mediumLargeNoteBook;
+		line-height: $mediumLargeNoteBook + 2;
+	}
+
+	main .about-us .mainContainer .about-text p{
+		font-size: $smallMainNoteBook;
+		line-height: $smallMainNoteBook + 8;
+	}
+
+	main .offers .mainContainer h3{
+		font-size: $mediumLargeNoteBook;
+	}
+
+	main .offers .mainContainer p{
+		font-size: $smallMainNoteBook;
+	}
+
+	main .offers .mainContainer .row .offer-item .box .green-footer h4{
+		font-size: $smallMainNoteBook !important;
+	}
+
+	main .offers .mainContainer .row .offer-item .box .green-footer p{
+		font-size: $smallMainNoteBook;
+		line-height: $smallMainNoteBook + 6;
+	}
+
+	main .prices-box .mainContainer h3{
+		font-size: $mediumLargeNoteBook;
+	}
+
+	main .prices-box .mainContainer .price-border .right h4{
+		font-size: $smallMainNoteBook;
+	}
+
+	main .prices-box .mainContainer .price-border .right .content strong{
+		font-size: $smallMainNoteBook;	
+	}
+
+	main .prices-box .mainContainer .price-border .right .content p{
+		font-size: $smallMainNoteBook;
+		line-height: $smallMainNoteBook + 8;	
+	}
+
+	main .prices-box .mainContainer .price-border .right .content ul li{
+		font-size: $smallMainNoteBook;
+		line-height: $smallMainNoteBook + 9;	
+	}
+
+	main .prices-box .mainContainer .price-border .left .footer p{
+		font-size: $mediumLargeNoteBook;
+	}
+
+	main .prices-box .mainContainer .price-border .left .footer button{
+		font-size: $smallMainNoteBook;
+	}
+
+	main .additional-services h3{
+		font-size: $mediumLargeNoteBook;
+	}
+
+	main .additional-services .service-item .details p{
+		font-size: $mediumNoteBook;
+	}
+
+	main .additional-services .service-item .details a{
+		font-size: $smallMainNoteBook;
+	}
+
+	main .about-maxunteci h3{
+		font-size: $mediumLargeNoteBook;
+	}
+
+	main .about-maxunteci .mainContainer .content-box .blur-box p{
+		font-size: $smallMainNoteBook;
+		line-height: $smallMainNoteBook + 9;
+	}
+
+	main .about-maxunteci .mainContainer .content-box .blur-box a{
+		font-size: $smallMainNoteBook;
+	}
+
+	footer h3{
+		font-size: $mediumLargeNoteBook;
+	}
+
+	footer .footer-facebook p{
+		font-size: $mediumNoteBook;
+	}
+
+	footer .right ul li a{
+		font-size: $mediumNoteBook;
+	}
+
+	footer .right .address{
+		font-size: $mediumNoteBook;
+	}
+
+	footer .right .address span{
+		line-height: $mediumNoteBook + 7;
+	}
+
+	footer .copyright .left p{
+		line-height: 57px;	
+	}
+
+	footer .copyright .left p{
+		font-size: $mediumSmallnoteBook;
+	}
+
+	/* about */
+	main .about-zipline p{
+		font-size: $mediumNoteBook;
+		line-height: $mediumNoteBook + 10;
+	}
+
+	main .about-security .mainContainer h3{
+		font-size: $mediumLargeNoteBook;
+	}
+
+	main .about-security .mainContainer p{
+		font-size: $mediumNoteBook;
+		line-height: $mediumNoteBook + 10;
+	}
+
+	main .notes .mainContainer h3{
+		font-size: $mediumLargeNoteBook;
+	}
+
+	main .notes .mainContainer h4{
+		font-size: $mediumNoteBook;
+	}
+
+	main .notes .mainContainer p{
+		font-size: $mediumNoteBook;
+		line-height: $mediumNoteBook + 10;
+	}
+
+	/* maxunteci */
+	main .maxunteci-content .over-slider .text-box p{
+		font-size: $smallMainNoteBook;
+		line-height: $smallMainNoteBook + 9;
+	}
+
+	/* service */
+	main .top-msg h1{
+		font-size: $smallMainNoteBook;
+		line-height: $smallMainNoteBook + 4;
+	}
+
+	main .service-list .mainContainer .the-service h2{
+		font-size: $mediumLargeNoteBook;
+	}
+
+	main .service-list .mainContainer .the-service p{
+		font-size: $mediumNoteBook;
+		line-height: $mediumNoteBook + 10;
+	}
+	/* company */
+	.company-box .mainContainer h2{
+		font-size: $mediumNoteBook;
+		line-height: $mediumNoteBook + 15;
 	}
 }
