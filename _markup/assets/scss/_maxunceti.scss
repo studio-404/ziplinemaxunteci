@@ -1,35 +1,132 @@
-.left-owl-carousel{
-	margin: 0;
-	padding: 0;
-	width: 64%;
-	height: calc(100vh - 70px);
-	float: left;
-	position: relative;
-}
-
-.left-owl-carousel div{
+.maxunteci-content{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-position: center;
-}
-
-.right-owl-carousel{
-	margin: 0;
-	padding: 0;
-	width: 36%;
 	height: calc(100vh - 70px);
-	float: left;
-	position: relative;
-}
+	position: relative; 
+	overflow: hidden;
+	
 
-.right-owl-carousel div{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-position: center;
+	.over-slider{
+		margin: 0;
+		padding: 0;
+		width: 1280px;
+		height: calc(100vh - 70px);
+		position: absolute;
+		top: 70px;
+		left: calc(50% - 640px);
+		z-index: 99;
+
+		.text-box{
+			margin: 0;
+			padding: 86px 57px 115px 57px;
+			width: 810px;
+			position: absolute;
+			z-index: 99;
+			top: 97px;
+			right: 0;
+			background-color: rgba(255,255,255,0.16);
+			backdrop-filter: blur(18px) brightness(132%);
+			border: solid 1px rgba(22,95,63,0.5);
+
+			p{
+				margin: 0;
+				padding: 0;
+				color: $blackDark;
+			}
+		}
+
+		.arrows{
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			position: absolute;
+			bottom: 207px;
+			left: 0px;
+			z-index: 99;
+
+			.left-arrow{
+				margin: 0;
+				padding: 0;
+				width: 53px;
+				height: 53px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				background-image: url('../img/slider-arrow.svg');
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center center;
+				cursor: pointer;
+				user-select: none;
+			} 
+
+			.right-arrow{
+				margin: 0;
+				padding: 0;
+				width: 53px;
+				height: 53px;
+				position: absolute;
+				right: 0;
+				top: 0;
+				background-image: url('../img/slider-arrow.svg');
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center center;
+				cursor: pointer;
+				user-select: none;
+				transform: rotate(180deg);
+			}  
+		}
+	}
+	
+	
+
+	.left-owl-carousel{
+		margin: 0;
+		padding: 0;
+		width: 64%;
+		height: calc(100vh - 70px);
+		float: left;
+		position: relative;
+	}
+
+	.left-owl-carousel div{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.right-owl-carousel{
+		margin: 0;
+		padding: 0;
+		width: 36%;
+		height: calc(100vh - 70px);
+		float: left;
+		position: relative;
+	}
+
+	.right-owl-carousel::before{
+		content: '';
+		width: 100%;
+		height: 100%;
+		background-color: $pureWhite;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 98;
+		opacity: 0.37;
+	}
+
+	.right-owl-carousel div{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+	}
 }

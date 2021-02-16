@@ -1,0 +1,33 @@
+/* Font sizes */
+/*$large: 81px;
+$mediumLarge: 38px;
+$medium: 25px;
+$mediumSmall: 20px;
+$smallMain: 16px;*/
+
+$largeNotebook: 71px;
+$smallMainNoteBook: 14px;
+$mediumLargeNoteBook: 33px;
+
+/* notebook */
+@media screen and (min-width:1200px) and (max-width: 1600px){
+	.mainContainer .navigation ul li a{
+		font-size: $smallMainNoteBook !important;
+	}
+
+	.mainContainer .languages ul li a{
+		font-size: $smallMainNoteBook !important;	
+	}
+
+	main .cover-image .cover-text .text-buttom-container h1{
+		font-size: $largeNotebook !important;
+	}
+
+	main .cover-image .cover-text .text-buttom-container h2{
+		font-size: $mediumLargeNoteBook !important;
+	}
+
+	main .cover-image .cover-text button{
+		font-size: $mediumLargeNoteBook !important;
+	}
+}

@@ -54,23 +54,44 @@
 		<div class="zipman"></div>
 	</header>
 
-	<main> 
-		<section class="owl-carousel left-owl-carousel">
-		  <div style="background-image: url('https://loadedlandscapes.com/wp-content/uploads/2019/07/lighting.jpg');">
-		  </div>
-		  <div style="background-image: url('https://learn.zoner.com/wp-content/uploads/2018/08/landscape-photography-at-every-hour-part-ii-photographing-landscapes-in-rain-or-shine.jpg');">
-		  </div>
-		  <div style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg');">
-		  </div>
-		</section>
+	<main>
+		<section class="maxunteci-content">
+			<section class="over-slider">
+				<div class="arrows">
+					<div class="left-arrow"></div>
+					<div class="right-arrow"></div>
+				</div>
 
-		<section class="owl-carousel right-owl-carousel">
-		  <div style="background-image: url('https://loadedlandscapes.com/wp-content/uploads/2019/07/lighting.jpg');">
-		  </div>
-		  <div style="background-image: url('https://learn.zoner.com/wp-content/uploads/2018/08/landscape-photography-at-every-hour-part-ii-photographing-landscapes-in-rain-or-shine.jpg');">
-		  </div>
-		  <div style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg');">
-		  </div>
+				<div class="text-box">
+					<p>მახუნცეთი ბათუმიდან სულ რაღაც 33 კილომეტრითაა დაშორებული. იგი  ბოლო 
+					პერიოდში განსაკუთრებული პოპულარობით სარგებლობს, როგორც  უცხოელ, ისე 
+					ადგილობრივ ტურისტებს შორის. ეს დიდწილად იმის დამსახურებაა, რომ მახუნცეთი 
+					სანახაობების  და აქტივობების მრავაფეროვნებით გამოირჩევა.  აქ თქვენ შეგიძლიათ 
+					მოინახულოთ ულამაზესი ჩანჩქერი, ისტორიული თამარის ხიდი, ეწვიოთ ადგილზე 
+					არსებულ რესტორნის ტიპის კვების ობიექტებს და დააგემოვნოთ აქვე დაჭერილი 
+					კალმახი,  ზაფხულის ცხელ დღეებში სასიამოვნოდ გაგრილდეთ მდინარე აჭარისწყლის 
+					სანაპიროზე,  შეიძინოთ ადგილობრივი ნაწარმი: ნატურალური თაფლი, ღვინო, ჭაჭა და 
+					ა.შ. ან უბრალოდ დატკბეთ ბუნებაში ყოფნით. </p>
+				</div>
+			</section>
+
+			<section class="owl-carousel left-owl-carousel">
+			  <div style="background-image: url('https://loadedlandscapes.com/wp-content/uploads/2019/07/lighting.jpg');">
+			  </div>
+			  <div style="background-image: url('https://learn.zoner.com/wp-content/uploads/2018/08/landscape-photography-at-every-hour-part-ii-photographing-landscapes-in-rain-or-shine.jpg');">
+			  </div>
+			  <div style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg');">
+			  </div>
+			</section>
+
+			<section class="owl-carousel right-owl-carousel">
+			  <div style="background-image: url('https://loadedlandscapes.com/wp-content/uploads/2019/07/lighting.jpg');">
+			  </div>
+			  <div style="background-image: url('https://learn.zoner.com/wp-content/uploads/2018/08/landscape-photography-at-every-hour-part-ii-photographing-landscapes-in-rain-or-shine.jpg');">
+			  </div>
+			  <div style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg');">
+			  </div>
+			</section>
 		</section>
 	</main>
 
@@ -137,29 +158,43 @@
 <script type="text/javascript" src="/_markup/assets/js/main.js"></script>
 <script>
 $(document).ready(function(){
-	var owlRight = $(".right-owl-carousel");
-
-	owlRight.owlCarousel({
+	var owlLeft = $(".left-owl-carousel");
+	owlLeft.owlCarousel({
+		autoplay: 7000,
+		smartSpeed: 1000,
 		items:1,
 		loop:true,
-		animateOut: 'fadeOut'
-	});
-
-	owlRight.trigger('prev.owl.carousel');
-
-	$(".left-owl-carousel").owlCarousel({
-		items:1,
-		loop:true,
+		touchDrag: false,
+     	mouseDrag: false,
 		animateOut: 'fadeOut',
+		pagination: false,
 		onInitialized: function(e){
-			console.log(e.item.index);
-
-			
+			console.log(e.item.index);			
 		}
 	});
 
-	// console.log($(".left-owl-carousel").index());
+	var owlRight = $(".right-owl-carousel");
+	owlRight.owlCarousel({
+		autoplay: 7000,
+		smartSpeed: 1000,
+		items:1,
+		loop:true,
+		touchDrag: false,
+     	mouseDrag: false,
+		animateOut: 'fadeOut',
+		pagination: false
+	});
+	owlRight.trigger('next.owl.carousel');
 
+	$(".left-arrow").click(function(){
+		owlLeft.trigger('prev.owl.carousel');
+		owlRight.trigger('prev.owl.carousel');
+	});
+
+	$(".right-arrow").click(function(){
+		owlLeft.trigger('next.owl.carousel');
+		owlRight.trigger('next.owl.carousel');
+	});
 	
 });
 </script>

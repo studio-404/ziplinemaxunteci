@@ -1,0 +1,31 @@
+.company-box{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-color: $orange;
+	overflow: hidden;
+}
+
+.company-box .animation{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	z-index: 99;
+}
+
+.company-box .animation #zipman-animate{
+	margin: 0;
+	padding: 0;
+}
+
+.company-box .mainContainer h2{
+	margin: 0;
+	padding: 0 15px;
+	color: $blackDark;
+	float: left;
+	margin-top: 60vh; 
+}

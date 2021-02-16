@@ -1,0 +1,50 @@
+/* notebook */
+@media screen and (min-width:1200px) and (max-width: 1600px){
+	.mainContainer{
+		width: 1000px !important;
+	}
+
+	header{
+		height: 103px;
+	}
+
+	.header-space{
+		height: 103px;
+	}
+
+	.mainContainer .logo{
+		height: 103px;	
+		line-height: 103px;
+	}
+
+	.mainContainer .navigation ul li a{
+		padding: 0 5px !important;
+		line-height: 103px;
+	}
+
+	.mainContainer .languages{
+		height: 103px !important;
+		line-height: 103px;
+	}
+
+	.mainContainer .logo{
+		left: -140px !important;
+	}
+
+	main .cover-image .cover-text .text-buttom-container button{
+		height: 103px;	
+		line-height: 103px;
+	}
+
+	main .cover-image .cover-text .text-buttom-container button{
+		padding: 0 92px;
+	}
+
+	main .about-us .mainContainer .social-networks ul li a{
+		background-size: 22px 22px;
+	}
+
+	main .about-us .mainContainer .social-networks ul li .facebook{
+		background-size: 22px 27px;
+	}
+}
